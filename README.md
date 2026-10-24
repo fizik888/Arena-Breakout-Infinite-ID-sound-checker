@@ -90,7 +90,7 @@ You can copy the EXE anywhere; the sound library folder is created next to it (o
 ---
 
 ## Quick start
-
+  https://abibuilder.com/merchant
 1. **Import sounds**  
    Open the **Library** tab → **Import sounds from folder**.  
    Use files named by group id, for example:
