@@ -1,4 +1,4 @@
-
+```
 ```markdown 
 # ABI Sound ID
 
@@ -226,15 +226,3 @@ Issues and pull requests are welcome. Please include:
 
 ---
 
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-```
-
----
-
-**Короткий About для поля репозиторію:**
-
-```text
-Identify Arena Breakout: Infinite vendor items by drag sound. System audio only — no game memory access. English/Russian UI.
-```
