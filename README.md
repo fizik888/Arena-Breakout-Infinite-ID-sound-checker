@@ -1,4 +1,16 @@
+## What it does
 
+**ABI Sound ID** is a local helper for *Arena Breakout: Infinite*.  
+It listens to your system audio while you drag mystery cargo at the Field Merchant, matches the sound against a library of reference clips, and shows the most likely item on a **transparent overlay** over the game.
+
+It does **not** attach to the game process or read memory — only audio comparison.
+
+### How results appear
+
+- When a drag sound is detected, the overlay lists the best-matching item (or sound group) with a confidence score.
+- Several items can share one sound — use the **item size filter** and the candidate list on [ABI Builder](https://abibuilder.com/merchant) to narrow it down.
+- The overlay is click-through (mouse input goes to the game).  
+  Run the game in **borderless window** mode so the overlay stays visible.
 ### Method: browser DevTools (F12 → Media)
 
 Works in **Chrome** or **Edge**.
