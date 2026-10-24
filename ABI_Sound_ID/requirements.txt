@@ -1,5 +1,0 @@
-numpy>=1.24
-scipy>=1.10
-soundfile>=0.12
-sounddevice>=0.4
-PyAudioWPatch>=0.2
