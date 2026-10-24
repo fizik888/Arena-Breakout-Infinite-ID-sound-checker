@@ -78,19 +78,30 @@ py -3.12 -m pip install -r requirements.txt
 py -3.12 abi_gui.py
 ```
 
-### Option C — standalone EXE
+### Method: browser DevTools (F12 → Media)
 
-```bat
-build_exe.bat
-```
+Works in **Chrome** or **Edge**.
 
-Output: `dist\ABI_Sound_ID.exe`  
-You can copy the EXE anywhere; the sound library folder is created next to it (or chosen in the UI).
+1. Open [abibuilder.com/merchant](https://abibuilder.com/merchant).
+2. Press **F12** (or right-click → Inspect).
+3. Open the **Media** tab.  
+   If you do not see it:  
+   **⋮** (panel menu) → **More tools** → **Media**.
+4. On the page, click **Pick up** or **Drop** for the sound group you need.  
+   The clip should appear in the Media panel player list.
+5. Select the entry in Media.
+6. Open the audio URL (often under **Player** / source link), or use:
+   - right-click the media → **Open in new tab**, then  
+   - right-click the player → **Save audio as…**
+7. Save the file with the correct name, for example:
+   - group **18**, pick up → `18_pickup.ogg`
+   - group **18**, drop → `18_drop.ogg`
+8. Put all saved files in one folder.
+9. In ABI Sound ID: **Library** → **Import sounds from folder** → select that folder.
 
----
 
 ## Quick start
-  https://abibuilder.com/merchant
+
 1. **Import sounds**  
    Open the **Library** tab → **Import sounds from folder**.  
    Use files named by group id, for example:
